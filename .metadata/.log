@@ -13,3 +13,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-07-13 21:12:09.280
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-13 21:28:06.561
+!MESSAGE Indexed 'Cwiczenie_2' (20 sources, 82 headers) in 3.61 sec: 5,500 declarations; 32,737 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-14 10:38:33.300
+!MESSAGE Indexed 'Cwiczenie_3a' (20 sources, 82 headers) in 1.87 sec: 5,500 declarations; 32,737 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-14 18:50:27.833
+!MESSAGE Indexed 'Cwiczenie_3b' (21 sources, 83 headers) in 1.61 sec: 5,500 declarations; 32,676 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
