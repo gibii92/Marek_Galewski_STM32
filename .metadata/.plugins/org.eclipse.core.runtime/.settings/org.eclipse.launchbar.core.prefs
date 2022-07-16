@@ -1,8 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_3a Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_3b Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_4
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cw4_lcd_odliczanie\ Debug\ -\ RUN/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cw4_lcd_odliczanie\ Debug\ -\ RUN/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_2\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_2\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_3a\ Debug/activeLaunchMode=run
