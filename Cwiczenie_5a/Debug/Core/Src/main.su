@@ -1,0 +1,11 @@
+../Core/Src/main.c:82:5:main	8	static
+../Core/Src/main.c:168:6:SystemClock_Config	88	static
+../Core/Src/main.c:211:6:Opcja1	8	static
+../Core/Src/main.c:215:6:Opcja2	8	static
+../Core/Src/main.c:219:6:Opcja3	8	static
+../Core/Src/main.c:223:6:Opcja4	8	static
+../Core/Src/main.c:227:6:Opcja5	16	static
+../Core/Src/main.c:232:6:Opcja6	16	static
+../Core/Src/main.c:237:6:Opcja7	16	static
+../Core/Src/main.c:242:6:Opcja8	16	static
+../Core/Src/main.c:253:6:Error_Handler	4	static,ignoring_inline_asm

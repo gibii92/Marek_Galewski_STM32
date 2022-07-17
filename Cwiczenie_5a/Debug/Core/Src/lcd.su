@@ -1,0 +1,16 @@
+../Core/Src/lcd.c:11:6:LCD_WriteNibble	16	static
+../Core/Src/lcd.c:21:15:LCD_ReadNibble	16	static
+../Core/Src/lcd.c:33:6:LCD_SetDataPinInput	8	static
+../Core/Src/lcd.c:61:6:LCD_SetDataPinOutput	8	static
+../Core/Src/lcd.c:89:15:LCD_ReadStatus	16	static
+../Core/Src/lcd.c:106:6:LCD_WriteData	16	static
+../Core/Src/lcd.c:117:6:LCD_WriteCommand	16	static
+../Core/Src/lcd.c:127:6:LCD_WriteText	16	static
+../Core/Src/lcd.c:132:6:LCD_GoTo	16	static
+../Core/Src/lcd.c:137:6:LCD_WriteTextXY	16	static
+../Core/Src/lcd.c:144:6:LCD_WriteBinary	24	static
+../Core/Src/lcd.c:153:6:LCD_ShiftLeft	8	static
+../Core/Src/lcd.c:160:6:LCD_ShiftRight	8	static
+../Core/Src/lcd.c:165:6:LCD_SetControlPinOutput	8	static
+../Core/Src/lcd.c:191:6:LCD_Initialize	16	static
+../Core/Src/lcd.c:230:6:LCD_SetUserChar	16	static
