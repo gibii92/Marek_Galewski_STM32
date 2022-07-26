@@ -121,21 +121,21 @@ int main(void)
 		  LCD_WriteCommand(HD44780_DISPLAY_CURSOR_SHIFT | HD44780_EM_SHIFT_CURSOR | HD44780_SHIFT_RIGHT);
 	  }
 	  if(!HAL_GPIO_ReadPin(BT3_GPIO_Port, BT3_Pin) && (tekst[pozycjaZnaku]>32))
-	 	  {
-	 		  tekst[pozycjaZnaku]--;
-	 		 LCD_WriteCommand(HD44780_CLEAR);
-	 		 LCD_WriteText(tekst);
-	 		 LCD_GoTo(pozycjaZnaku, 0);
+	  {
+		  tekst[pozycjaZnaku]--;
+		  LCD_WriteCommand(HD44780_CLEAR);
+		  LCD_WriteText(tekst);
+		  LCD_GoTo(pozycjaZnaku, 0);
 
-	 	  }
+	  }
 	  if(!HAL_GPIO_ReadPin(BT4_GPIO_Port, BT4_Pin) && (tekst[pozycjaZnaku]<=255))
-	 	  {
+	  {
 		  tekst[pozycjaZnaku]++;
-		 	 		 LCD_WriteCommand(HD44780_CLEAR);
-		 	 		 LCD_WriteText(tekst);
-		 	 		 LCD_GoTo(pozycjaZnaku, 0);
+		  LCD_WriteCommand(HD44780_CLEAR);
+		  LCD_WriteText(tekst);
+		  LCD_GoTo(pozycjaZnaku, 0);
 
-	 	  }
+	  }
 	  HAL_Delay(150);
   }
   /* USER CODE END 3 */

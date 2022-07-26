@@ -1,0 +1,17 @@
+20:27:22 **** Incremental Build of configuration Debug for project Cwiczenie_7b ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/kb4x4_lib.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/kb4x4_lib.d" -MT"Core/Src/kb4x4_lib.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/kb4x4_lib.o"
+arm-none-eabi-gcc -o "Cwiczenie_7b.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM\STM32CubeIDE\workspace_1.10.1\Marek_Galewski_STM32\Cwiczenie_7b\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Cwiczenie_7b.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Cwiczenie_7b.elf
+ 
+arm-none-eabi-size   Cwiczenie_7b.elf 
+arm-none-eabi-objdump -h -S  Cwiczenie_7b.elf  > "Cwiczenie_7b.list"
+   text	   data	    bss	    dec	    hex	filename
+  10328	     68	   1596	  11992	   2ed8	Cwiczenie_7b.elf
+Finished building: default.size.stdout
+ 
+Finished building: Cwiczenie_7b.list
+ 
+
+20:27:23 Build Finished. 0 errors, 0 warnings. (took 730ms)
+

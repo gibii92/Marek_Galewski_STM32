@@ -1,0 +1,2 @@
+../Core/Src/kb4x4_lib.c:25:6:KB4x4_Config	72	static
+../Core/Src/kb4x4_lib.c:91:6:KB4x4_ReadKey	16	static
