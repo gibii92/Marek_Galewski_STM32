@@ -1,9 +1,0 @@
-/*
- * lcd.c
- *
- *  Created on: Jul 15, 2022
- *      Author: szymo
- */
-#include "lcd.h"
-
-GPIO_InitTypeDef GPIO_InitStruct;

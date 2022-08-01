@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cw7_klawiatura4x4.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_7b Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_8 Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cw4_lcd_odliczanie\ Debug\ -\ RUN/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cw4_lcd_odliczanie\ Debug\ -\ RUN/activeLaunchTarget=null\:---
@@ -12,4 +12,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_4/activeLaunchMode=ru
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_4/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_5a\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_5a\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_8a\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_8c\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cwiczenie_8c\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ekran_lcd\ Debug/activeLaunchMode=run
